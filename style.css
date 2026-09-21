@@ -230,10 +230,11 @@ body.no-scroll {
 /* Container for image styling and boundary */
 .hero-image-wrapper {
   width: 100%;
-  max-width: 600px; /* Adjust based on image resolution */
+  max-width: 800px; /* Adjust based on image resolution */
   background-color: var(--bg-color);
   overflow: hidden;
   transition: transform 0.3s ease;
+  border-radius: 22px;
 }
 
 .hero-image-wrapper:hover {
